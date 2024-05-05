@@ -176,10 +176,10 @@ footer {
 }
 
   .maps iframe {
+    width: 100%;
     height: 700px;
     border: none;
     padding-top: 40px;
-    width: 100%;
   }
 
   .opere {
