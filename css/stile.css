@@ -75,7 +75,7 @@ header nav ul a:hover, .lista_artisti a:hover, footer nav ul a:hover, footer p a
 
 .date {
     background-color: #EE881B;
-    font-size: 23px;
+    font-size: 20px;
     line-height: 1.4;
     width: 600px;
     height: 120px;
@@ -90,12 +90,17 @@ header nav ul a:hover, .lista_artisti a:hover, footer nav ul a:hover, footer p a
 }
 
 .inaugurazione, .info_artisti, .container_1, .container_2, .titolo_artisti_2 {
-    padding: 130px 150px 50px 150px;
+    padding: 100px 150px 50px 150px;
 }
 
 .inaugurazione h1, .info_artisti h1, .container_1 h1, .container_2 h1, .titolo_artisti_2 h1, .opere h1, .bio_artista h1 {
-    font-size: 60px;
+    font-size: 50px;
     margin-bottom: 70px;
+}
+
+.sub_headline {
+    font-size: 60px;
+    padding: 80px 0 0 150px;
 }
 
 .inaugurazione p, .container_1 p, .container_2 p, .bio_artista p {
@@ -281,7 +286,7 @@ footer {
     }
 
     .inaugurazione, .info_artisti, .container_1, .container_2, .titolo_artisti_2, .bio_artista {
-        padding: 130px 15px 50px 15px;
+        padding: 100px 15px 50px 15px;
     }
 
     .inaugurazione h1, .info_artisti h1, .container_1 h1, .container_2 h1, .titolo_artisti_2 h1, .opere h1, .bio_artista h1 {
@@ -296,6 +301,11 @@ footer {
 
     .inaugurazione p, .container_1 p, .container_2 p, .info_artisti p, .bio_artista p {
         font-size: 18px;
+    }
+
+    .sub_headline {
+        font-size: 40px;
+        padding: 80px 15px 0 15px;
     }
 
     .lista_artisti {
