@@ -193,7 +193,7 @@ footer {
 
   .grid_opere {
     column-count: 3;
-    column-gap: 35px;
+    column-gap: 20px;
   }
 
   .grid_opere img {
