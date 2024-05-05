@@ -349,9 +349,9 @@ footer {
         transform: translate(0, 0);
         font-weight: bold;
         font-size: 20px;
-        color:black;
+        color: white;
         display: block;
-        background-color: #fff;
+        background-color: #EE881B;
         padding: 10px 13px;
     }
 
