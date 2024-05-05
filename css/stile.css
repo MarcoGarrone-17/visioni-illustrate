@@ -44,7 +44,7 @@ header nav ul, footer nav ul {
     font-size: 15px;
     display: flex;
     list-style-type: none;
-    gap: 80px;
+    gap: 60px;
 }
 
 header nav ul a, footer nav ul a {
@@ -266,7 +266,7 @@ footer {
     }
 
     footer p {
-        width: 100px;
+        width: 200px;
     }
 
     header nav ul, footer nav ul {
@@ -317,10 +317,8 @@ footer {
     }
 
     .grid_opere {
-        display: grid;
-        grid-template-columns: 1fr 1fr 1fr;
+        column-count: 2;
         column-gap: 10px;
-        row-gap: 0;
       }
 
     .grid_opere img {
