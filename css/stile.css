@@ -280,7 +280,7 @@ footer {
         padding-left: 15px;
     }
 
-    .inaugurazione, .info_artisti, .container_1, .container_2, .titolo_artisti_2 {
+    .inaugurazione, .info_artisti, .container_1, .container_2, .titolo_artisti_2, .bio_artista {
         padding: 130px 15px 50px 15px;
     }
 
@@ -298,11 +298,6 @@ footer {
         font-size: 18px;
     }
 
-    .bio_artista {
-        padding: 130px 100px 50px 100px;
-        
-    }
-
     .lista_artisti {
         display: grid;
         grid-template-columns: 1fr;
@@ -318,12 +313,14 @@ footer {
     }
 
     .opere {
-        padding: 10px 100px 0 100px;
+        padding: 10px 15px 50px 15px;
     }
 
     .grid_opere {
-        column-count: 3;
-        column-gap: 20px;
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        column-gap: 10px;
+        row-gap: 0;
       }
 
     .grid_opere img {
