@@ -27,7 +27,7 @@ header {
 
 header p {
     font-weight: bold; 
-    font-size: 18px;
+    font-size: 22px;
     text-decoration: none;
 }
 
@@ -40,8 +40,8 @@ header p a, .lista_artisti a, footer a {
     color: white
 }
 
-header nav ul, footer nav ul {
-    font-size: 15px;
+header nav ul, footer nav ul, footer p {
+    font-size: 17px;
     display: flex;
     list-style-type: none;
     gap: 60px;
