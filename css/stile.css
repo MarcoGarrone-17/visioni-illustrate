@@ -54,7 +54,11 @@ header nav ul a, footer nav ul a {
 
 header nav ul a:hover, .lista_artisti a:hover, footer nav ul a:hover, footer p a:hover {
     text-decoration: underline;
-    font-weight: bold;
+}
+
+.page-mark {
+    font-weight: bolder;
+    text-decoration: underline;
 }
 
 .info {
